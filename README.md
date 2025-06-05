@@ -39,7 +39,7 @@ https://public.tableau.com/app/profile/nicolas.borer/viz/Cockpit_DWDL/Story1
 - `zipper.py`  
   Helper Lambda function to compress data from the learner lab S3 bucket for local download and migration to the production environment.
   
-- `flight_transform_lambda.py`  
+- `flight_transform.py`  
   AWS Lambda function that transforms daily grouped flight data from the data lake into a flat, analytics-ready CSV format. I
   This serves as the primary transformation step from raw flight API JSON to structured warehouse input.
 
